@@ -1,0 +1,6 @@
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\build\1.0.0\debug\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.dll.config
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\build\1.0.0\debug\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.dll
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\build\1.0.0\debug\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.pdb
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\src\Main\obj\Debug\Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\src\Main\obj\Debug\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.dll
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.BestMatchSelectionMethods\src\Main\obj\Debug\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.pdb
