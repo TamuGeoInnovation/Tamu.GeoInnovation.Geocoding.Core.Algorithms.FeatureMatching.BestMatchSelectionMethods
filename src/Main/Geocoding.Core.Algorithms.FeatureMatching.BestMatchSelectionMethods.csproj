@@ -94,57 +94,75 @@
     <Reference Include="System.Xml" />
     <Reference Include="Tamu.GeoInnovation.AddressProcessing.Core">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\AddressProcessing\AddressProcessing.Core\build\2.9.3\release\Tamu.GeoInnovation.AddressProcessing.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Census">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Census\build\1.0.0\release\Tamu.GeoInnovation.Common.Census.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Addresses">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Addresses\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Addresses.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Configurations">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Configurations\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Configurations.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.ExceptionHandling">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\ExceptionHandling\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.ExceptionHandling.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.GeographicFeatures.Streets\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Geometries">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Geometries\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Geometries.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Data.Databases">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases\build\1.0.0\release\Tamu.GeoInnovation.Common.Data.Databases.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.MatchedFeatures\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.SelectionMethods">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.SelectionMethods\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.SelectionMethods.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Configurations">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Configurations\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Configurations.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.OutputData">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.OutputData\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.OutputData.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.OutputData.Errors">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.OutputData.Errors\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.OutputData.Errors.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.OutputData.GeocodeResultSet">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.OutputData.GeocodeResultSet\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.OutputData.GeocodeResultSet.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.ReferenceFeatures">
       <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.ReferenceDatasets.ReferenceFeatures\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.ReferenceFeatures.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +188,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="LICENSE.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -192,7 +211,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="LICENSE.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
   <Target Name="BeforeBuild">
