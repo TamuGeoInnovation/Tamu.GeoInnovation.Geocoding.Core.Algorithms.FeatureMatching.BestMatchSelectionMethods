@@ -25,7 +25,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
             {
                 List<IGeocode> geocodes = geocodeResultSet.GeocodeCollection.GetValidGeocodes();
 
-                //This is nothing but a placeholder. It's an ok sort but I think we need to do better
+                //PAYTON:MULTITHREADING This is nothing but a placeholder. It's an ok sort but I think we need to do better
                 tempList = geocodes.OrderBy(d => d.NAACCRGISCoordinateQualityCode).ToList();
 
             }
@@ -49,12 +49,13 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                             }
                         }
 
+                        //PAYTON:MULTITHREADING Valid flag not being set properly during batch runs - need to check this
                         // if the ret is null, none of the IGeocodes were valid - return the first one that was attempted
                         if (ret == null)
                         {
-                            for (int i = 0; i < tempList.Count; i++)
+                            for (int i = 0; i < geocodeResultSet.GeocodeCollection.Geocodes.Count; i++)
                             {
-                                IGeocode geocode = tempList[i];
+                                IGeocode geocode = geocodeResultSet.GeocodeCollection.Geocodes[i];
                                 if (geocode != null)
                                 {
                                     if (geocode.Attempted)
@@ -69,10 +70,10 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                         // if the ret is still null, none of the IGeocodes were even attempted - return the first one
                         if (ret == null)
                         {
-                            IGeocode geocode = tempList[0];
+                            IGeocode geocode = geocodeResultSet.GeocodeCollection.Geocodes[0];
                             if (geocode != null)
                             {
-                                ret = tempList[0];
+                                ret = geocodeResultSet.GeocodeCollection.Geocodes[0];
                             }
                         }
                     }
