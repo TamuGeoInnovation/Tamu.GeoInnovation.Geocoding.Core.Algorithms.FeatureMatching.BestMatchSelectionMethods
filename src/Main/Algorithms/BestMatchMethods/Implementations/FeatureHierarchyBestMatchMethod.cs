@@ -26,7 +26,9 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                 List<IGeocode> geocodes = geocodeResultSet.GeocodeCollection.GetValidGeocodes();
 
                 //PAYTON:MULTITHREADING This is nothing but a placeholder. It's an ok sort but we need to determine here how to determine <accept-reject-review> 
-                tempList = geocodes.OrderBy(d => d.NAACCRGISCoordinateQualityCode).ThenByDescending(d => d.MatchScore).ToList();
+                //This should now be sorted prior to reaching this point
+                //tempList = geocodes.OrderBy(d => d.NAACCRGISCoordinateQualityCode).ThenByDescending(d => d.MatchScore).ToList();
+                tempList = geocodes.ToList();
 
             }
 
