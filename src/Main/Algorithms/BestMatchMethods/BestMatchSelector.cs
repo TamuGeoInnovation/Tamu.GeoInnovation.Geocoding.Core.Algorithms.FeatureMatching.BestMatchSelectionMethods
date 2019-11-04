@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using USC.GISResearchLab.Geocoding.Core.OutputData;
-using USC.GISResearchLab.Geocoding.Core.Configurations;
 using USC.GISResearchLab.Common.Core.Geocoders.FeatureMatching;
 using USC.GISResearchLab.Common.Geographics.Units;
 using USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implementations;
 using USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Interfaces;
+using USC.GISResearchLab.Geocoding.Core.Configurations;
+using USC.GISResearchLab.Geocoding.Core.OutputData;
 
 namespace Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.BestMatchSelectionMethods.Algorithms.BestMatchMethods
 {

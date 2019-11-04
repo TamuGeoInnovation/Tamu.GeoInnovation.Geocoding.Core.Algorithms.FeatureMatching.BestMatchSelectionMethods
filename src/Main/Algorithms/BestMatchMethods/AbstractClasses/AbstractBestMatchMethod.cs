@@ -11,18 +11,18 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Abstract
         #region Properties
 
         public FeatureMatchingSelectionMethod FeatureMatchingHierarchy { get; set; }
-        
+
         public double GridSize { get; set; }
         public AreaUnitType GridSizeUnit { get; set; }
 
         #endregion
 
 
-       public AbstractBestMatchMethod()
-            : this(100, AreaUnitType.SquareMeters)
+        public AbstractBestMatchMethod()
+             : this(100, AreaUnitType.SquareMeters)
         { }
 
-       public AbstractBestMatchMethod(double gridSize, AreaUnitType gridSizeUnit)
+        public AbstractBestMatchMethod(double gridSize, AreaUnitType gridSizeUnit)
         {
             GridSize = gridSize;
             GridSizeUnit = gridSizeUnit;

@@ -36,8 +36,8 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                                 {
                                     // do nothing, will revert to hierarchy
                                 }
-                                    // TODO check to see if this still works
-                                    // removed DG 2015-06-09
+                                // TODO check to see if this still works
+                                // removed DG 2015-06-09
                                 //else if (bestHierarchy.FM_Result.ReferenceDatasetStatistics.ReferenceSourceQueryResultSet.SawCandidate(bestUncertaintyId)) // if the hierarchy found and rejected the uncertainty, go with the hierarchy (choose tiger over USPS tiger/zip)
                                 //{
                                 //    // do nothing, will revert to hierarchy

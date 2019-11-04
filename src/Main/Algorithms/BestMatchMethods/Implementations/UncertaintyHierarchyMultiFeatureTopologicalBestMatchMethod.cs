@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Types;
+using System;
 using System.Collections.Generic;
-using Microsoft.SqlServer.Types;
 using USC.GISResearchLab.Common.Core.Geocoders.FeatureMatching;
 using USC.GISResearchLab.Common.Core.Physics.CenterOfMassCalculations;
 using USC.GISResearchLab.Common.Geographics.Units;
 using USC.GISResearchLab.Common.Geometries.Points;
 using USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.AbstractClasses;
 using USC.GISResearchLab.Geocoding.Core.OutputData;
-using System.Diagnostics;
 
 namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implementations
 {
@@ -19,7 +18,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
         { }
 
         public UncertaintyHierarchyMultiFeatureTopologicalBestMatchMethod(double gridSize, AreaUnitType gridSizeUnit)
-            :base(gridSize, gridSizeUnit)
+            : base(gridSize, gridSizeUnit)
         {
             FeatureMatchingHierarchy = FeatureMatchingSelectionMethod.UncertaintyMultiFeatureTopological;
         }
@@ -323,7 +322,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
             {
 
                 revertReason += ex.Message;
-                    
+
 
                 if (ret == null)
                 {
@@ -336,7 +335,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                 ret.ExceptionOccurred = true;
                 ret.ErrorMessage = ex.Message;
 
-               
+
             }
 
             if (ret == null)

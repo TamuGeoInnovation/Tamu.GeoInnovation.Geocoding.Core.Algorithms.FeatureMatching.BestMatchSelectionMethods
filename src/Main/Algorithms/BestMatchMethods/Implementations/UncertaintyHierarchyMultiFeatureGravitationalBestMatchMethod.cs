@@ -16,7 +16,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
         { }
 
         public UncertaintyHierarchyMultiFeatureGravitationalBestMatchMethod(double gridSize, AreaUnitType gridSizeUnit)
-            :base(gridSize, gridSizeUnit)
+            : base(gridSize, gridSizeUnit)
         {
             FeatureMatchingHierarchy = FeatureMatchingSelectionMethod.UncertaintyMultiFeatureGraviational;
         }
@@ -37,7 +37,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                 {
                     if (geocode.Valid == true)
                     {
-                        
+
                         double numberOfGridCells = (geocode.GeocodedError.ErrorBounds / GridSize);
                         double probabilityOfRandomPoint = 1 / numberOfGridCells;
 
@@ -49,7 +49,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.BestMatchMethods.Implemen
                 if (xymList.Count == 2)
                 {
                     double[] centerOfMass = CenterOfMassCalculator.GetCenterOfMass(xymList);
-                    
+
                     ret = bestUncertainty;
                     ((Point)ret.Geometry).X = centerOfMass[0];
                     ((Point)ret.Geometry).Y = centerOfMass[1];
